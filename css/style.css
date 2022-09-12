@@ -31,10 +31,20 @@
     width: calc(100% / 12 * 6);
 }
 
+body {
+    font-family: montserrat;
+}
+
 /*Header*/
 .main-header {
     background-color: white;
     padding: 25px;
+}
+
+.menu-items {
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
 }
 
 /*Debug*/
