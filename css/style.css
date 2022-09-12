@@ -110,6 +110,8 @@ body {
 }
 
 /*Main*/
+
+/*Cover*/
 .cover {
     background-color: #B4D0E7;
     height: 675px;
@@ -163,9 +165,9 @@ body {
     font-size: 15px;
 }
 
-
+/*Plans*/
 .plans-container {
-    height: 500px;
+    height: 900px;
 }
 
 .plans-contents {
@@ -195,7 +197,7 @@ body {
 
 .plan {
     border: 1px solid grey;
-    height: 300px;
+    height: 500px;
     width: 300px;
 }
 
@@ -235,10 +237,6 @@ body {
     color: grey;
 }
 
-.plan-functions-user {
-    padding-top: 50px;
-}
-
 .plan-functions span {
     font-size: 12px;
     margin-left: 5px;
@@ -247,6 +245,33 @@ body {
 .plan-functions-folder {
     margin-top: 10px;
 }
+
+ul {
+    list-style: none;
+}
+
+.plan-pad {
+    padding-top: 35px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.big-blue-button {
+    background-color:#0061FF;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 240px;
+    margin-top: 45px;
+}
+
+.or-buy-now {
+    padding-top: 20px;
+    font-size: 13px;
+}
+
 /*Debug*/
 
 
