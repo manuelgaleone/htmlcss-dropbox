@@ -15,6 +15,12 @@
     display: flex;
 }
 
+.row-header {
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+}
+
 .col-2 {
     width: calc(100% / 12 * 2);
 }
@@ -45,6 +51,24 @@ body {
     color: black;
     text-decoration: none;
     margin-left: 20px;
+    font-size: 14px;
+}
+
+.blue-button {
+    background-color: #0061FF;
+    color: white;
+    padding: 5px;
+    width: 65px;
+    border: none;
+    
+}
+
+.pad {
+    padding: 5px;
+}
+
+.marg-left {
+    margin-left: 10px;
 }
 
 /*Debug*/
