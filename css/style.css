@@ -85,7 +85,7 @@ body {
     text-align: right;
 }
 
-.blue-button {
+.small-blue-button {
     background-color: #0061FF;
     color: white;
     padding: 5px;
@@ -107,8 +107,53 @@ body {
 }
 
 /*Main*/
+.cover {
+    background-color: #B4D0E7;
+    height: 600px;
+    padding-top: 65px;
+    
+}
 
+.cover-contents {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-left: 145px;
+}
 
+.main-title {
+    font-size: 65px;
+    text-align: left;
+
+}
+
+.txt-left {
+    text-align: left;
+}
+
+#cover-img {
+    width: 750px;
+}
+
+.cov-mrg-top {
+    margin-top: 40px;
+}
+
+.medium-blue-button {
+    background-color:#0061FF;
+    color: white;
+    border: none;
+    padding: 10px;
+
+}
+
+.mrg-top {
+    margin-top: 25px;
+}
+
+.col-4 > p {
+    font-size: 15px;
+}
 
 /*Debug*/
 
