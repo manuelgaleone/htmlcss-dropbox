@@ -481,9 +481,36 @@ ul {
     
 }
 
-.question {
+details {
     padding-top: 35px;
     padding-bottom: 35px;
+}
+
+summary {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;  
+    transition: height 1s ease;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+  }
+  
+  summary:after{
+    content: "\002B";
+  }
+
+  details[open] summary {
+    margin-bottom: .5em;
+}
+
+details[open] summary:after{
+  content: "\00D7";
+}
+
+details[open] div{
+  padding: .5em 1em;
 }
 
 /*Debug*/
