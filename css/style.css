@@ -513,6 +513,51 @@ details[open] div{
   padding: .5em 1em;
 }
 
+/*Footer*/
+.main-footer {
+    background-color: black;
+    padding-bottom: 50px;
+    padding-top: 80px;
+}
+
+.footer-container {
+    width:65%;
+    margin: auto;
+}
+
+.white {
+    color: white;
+}
+
+.menu-footer-title {
+    font-size: 23px;
+    padding-bottom: 25px;
+}
+
+footer li {
+    padding-top: 20px;
+    padding-bottom: 1px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-divisor {
+    margin-top: 75px;
+    width:8%;
+    border: 1px solid white;
+}
+
+.triangle {
+    font-size: 25px;
+}
+
+.lenguage {
+    padding-top: 50px;
+}
+
 /*Debug*/
 
 
