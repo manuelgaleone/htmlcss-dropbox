@@ -139,6 +139,11 @@ body {
     margin-top: 40px;
 }
 
+.icon {
+    margin-top: 60px;
+    font-size: 45px;
+}
+
 .medium-blue-button {
     background-color:#0061FF;
     color: white;
