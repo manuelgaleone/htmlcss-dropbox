@@ -115,7 +115,7 @@ body {
 .cover {
     background-color: #B4D0E7;
     height: 675px;
-    
+    margin: auto;
 }
 
 .cover-contents {
@@ -167,7 +167,7 @@ body {
 
 /*Plans*/
 .plans-container {
-    height: 1500px;
+    padding-bottom: 50px;
 }
 
 .plans-contents {
@@ -318,6 +318,47 @@ ul {
 .mrg-min {
     margin-top: 15px;
 }
+
+/*Partner*/
+.get-in-touch {
+    width: 50%;
+    margin: auto;
+
+}
+
+.row-partner {
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#partner-img {
+    width: 575px;
+
+}
+
+.partner-capt {
+    padding-top: 20px;
+    font-size: 10px;
+}
+
+#partner-button {
+    margin-top: 25px;
+    background-color: white;
+    border: 1px solid grey;
+    padding: 10px;
+    font-size: 15px
+}
+
+.partner-title {
+    font-size: 22px;
+}
+
+.pad-top {
+    padding-top: 45px;
+}
+
 /*Debug*/
 
 
