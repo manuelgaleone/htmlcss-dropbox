@@ -112,8 +112,7 @@ body {
 /*Main*/
 .cover {
     background-color: #B4D0E7;
-    height: 600px;
-    padding-top: 65px;
+    height: 675px;
     
 }
 
@@ -122,6 +121,7 @@ body {
     margin: auto;
     text-align: center;
     padding-left: 145px;
+    padding-top: 125px;
 }
 
 .main-title {
