@@ -463,6 +463,23 @@ ul {
     margin-top: 10px;
 }
 
+.questions-container {
+    width: 50%;
+    margin: auto;
+    padding-top: 105px;
+    height: 1200px;
+}
+
+.questions-title {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.questions-container hr {
+    margin-top: 30px;
+    border: 1px solid black;
+}
+
 /*Debug*/
 
 
