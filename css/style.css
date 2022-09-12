@@ -439,6 +439,26 @@ ul {
     padding: 115px;
 }
 
+.world-block {
+    background-color: #ec2424;
+    padding: 115px;
+}
+
+.hearst-block {
+    background-color: #7fbbdb;
+    padding: 155px
+}
+
+.lonely-block {
+    background-color: #0D2481;
+    padding: 130px
+}
+
+.clear-block {
+    background-color: #ecd31b;
+    padding: 130px
+}
+
 .florida-block {
     padding: 150px;
     background-color: #23b0e8;
@@ -454,14 +474,13 @@ ul {
 
 .client-logo {
     color: white;
-    width: 125px;
+    width: 115px;
     filter: invert();
     
 }
 
 .clients-history {
     background-color: #F5F5F5;
-    width: 750px;
 
 }
 
