@@ -404,6 +404,20 @@ ul {
     padding: 10px;
 }
 
+/*Clients*/
+.clients-section {
+    width: 50%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+.clients-title {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+
+
 /*Debug*/
 
 
