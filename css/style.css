@@ -117,10 +117,10 @@ body {
 }
 
 .cover-contents {
-    width: 70%;
+    width: 80%;
     margin: auto;
     text-align: center;
-    padding-left: 145px;
+    padding-left: 170px;
     padding-top: 125px;
 }
 
@@ -160,6 +160,59 @@ body {
 }
 
 .col-4 > p {
+    font-size: 15px;
+}
+
+
+.plans-container {
+    height: 500px;
+}
+
+.plans-contents {
+    padding-top: 135px;
+    width: 50%;
+    margin: auto;
+    text-align: left;
+}
+
+.check-month {
+    color: white;
+    background-color: white;
+    
+}
+
+.business-title {
+    font-size: 35px;
+}
+
+.mrg-left {
+    margin-left: 35px;
+}
+
+.pad-bottom {
+    padding-bottom: 50px;
+}
+
+.plan {
+    border: 1px solid grey;
+    height: 150px;
+    width: 300px;
+}
+
+.plan-container {
+    padding-top: 35px;
+}
+
+.plan-type {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.plan-name {
+    font-size: 12px;
+}
+
+.plan-icon {
     font-size: 15px;
 }
 
