@@ -434,6 +434,35 @@ ul {
     height: 600px;
 }
 
+.dropbox-business-cta {
+    background-color: #B4D0E7;
+}
+
+.business-container {
+    width: 50%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    vertical-align: top;
+}
+
+.business-cta {
+    color: #812727;
+    font-size: 40px;
+    font-weight: 600;
+    vertical-align: top;
+    
+}
+
+#cta-business-trial {
+    background-color: white;
+    border: none;
+    padding: 10px;
+    width: 200px;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
 /*Debug*/
 
 
