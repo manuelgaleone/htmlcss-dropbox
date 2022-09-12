@@ -283,6 +283,13 @@ ul {
     color: #0061FF;
 }
 
+.row-plan {
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 /*Debug*/
 
 
