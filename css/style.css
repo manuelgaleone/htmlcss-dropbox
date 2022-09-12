@@ -195,7 +195,7 @@ body {
 
 .plan {
     border: 1px solid grey;
-    height: 150px;
+    height: 300px;
     width: 300px;
 }
 
@@ -208,7 +208,7 @@ body {
     padding-top: 10px;
 }
 
-.plan-name {
+.plan-person {
     font-size: 12px;
 }
 
@@ -216,6 +216,37 @@ body {
     font-size: 15px;
 }
 
+.plan-name {
+    font-size: 20px;
+}
+
+.plan-functions {
+    padding: 30px;
+}
+
+.price {
+    padding-top: 15px;
+    font-size: 13px;
+}
+
+.info-period {
+    padding-top: 5px;
+    font-size: 12px;
+    color: grey;
+}
+
+.plan-functions-user {
+    padding-top: 50px;
+}
+
+.plan-functions span {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.plan-functions-folder {
+    margin-top: 10px;
+}
 /*Debug*/
 
 
