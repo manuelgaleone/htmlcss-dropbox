@@ -324,6 +324,7 @@ ul {
     width: 50%;
     margin: auto;
     padding-bottom: 50px;
+    padding-top: 75px;
 }
 
 .row-partner {
@@ -357,6 +358,51 @@ ul {
 
 .pad-top {
     padding-top: 45px;
+}
+
+/*Dropbox Business Container*/
+.dropbox-business-container {
+    margin:auto;
+    width: 50%;
+    height: 1200px;
+    padding-top: 75px;
+}
+
+.business-title {
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+
+.dropbox-business-container img {
+    width: 275px;
+}
+
+.business-subtitle {
+    font-size: 19px;
+}
+
+.business-caption {
+    padding-top: 20px;
+}
+
+.business-row {
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.business-subrow {
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 35px;
+}
+
+.business-pad {
+    padding: 10px;
 }
 
 /*Debug*/
