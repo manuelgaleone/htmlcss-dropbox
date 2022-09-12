@@ -411,12 +411,37 @@ ul {
     padding-bottom: 100px;
 }
 
+.clients-block {
+    height: 1200px;
+}
+
 .clients-title {
     font-size: 30px;
     padding-bottom: 30px;
 }
 
+.design-it-block {
+    width: 300px;
+    height: 300px;
+    background-color: #A2D39B;
+    border: 15px solid #bbe2b5;
 
+}
+
+.asu-block {
+    width: 300px;
+    height: 300px;
+    background-color: #812727;
+
+
+}
+
+.client-logo {
+    color: white;
+    width: 125px;
+    filter: invert();
+    
+}
 
 /*Debug*/
 
