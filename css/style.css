@@ -17,11 +17,28 @@
     flex-wrap: nowrap;
 }
 
-.row-header {
+.row-space-between {
     margin:auto;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.row-space-around {
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.row-center {
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
 }
 
 .vert-align {
@@ -101,7 +118,7 @@ body {
     display: inline-block;
 }
 
-.pad {
+.pad-5 {
     padding: 5px;
 }
 
@@ -197,7 +214,6 @@ body {
 
 .plan {
     border: 1px solid grey;
-    height: 900px;
     width: 300px;
 }
 
@@ -285,29 +301,14 @@ ul {
     color: #0061FF;
 }
 
-.row-plan {
-    margin:auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
 .enterprise-plan {
     border: 1px solid grey;
-    height: 250px;
     width: 100%;
     margin-top: 50px;
 }
 
 .enter-pad {
     padding: 25px;
-}
-
-.row-col {
-    margin:auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
 }
 
 .enter-copy {
@@ -325,13 +326,6 @@ ul {
     margin: auto;
     padding-bottom: 50px;
     padding-top: 75px;
-}
-
-.row-partner {
-    margin:auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 }
 
 #partner-img {
@@ -383,14 +377,6 @@ ul {
 
 .business-caption {
     padding-top: 20px;
-}
-
-.business-row {
-    margin:auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    
 }
 
 .business-subrow {
