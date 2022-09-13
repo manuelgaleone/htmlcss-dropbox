@@ -634,3 +634,9 @@ a:hover {
     color:#0061FF;
     transition: 0.5s;
 }
+
+button:hover {
+    box-shadow: 0 0 5px 0 black;
+    cursor: pointer;
+    transition: 0.5s;
+}
