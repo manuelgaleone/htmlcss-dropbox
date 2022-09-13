@@ -56,6 +56,10 @@
     flex-wrap: nowrap;
 }
 
+.mrg-top {
+    padding-top: 55px;
+}
+
 img {
     max-width: 100%;
 }
@@ -234,6 +238,39 @@ body {
 
 .mrg-top {
     margin-bottom: 4px;
+}
+
+.users-row-container {
+    padding: 50px;
+    margin: auto;
+    width: 80%;
+}
+
+.users-title {
+    font-weight: 600;
+    text-align: center;
+    font-size: 40px;
+}
+
+.left {
+    text-align: left;
+}
+
+.sect-content > a {
+    color: black;
+}
+
+.link-icons {
+    margin-top: 20px;
+}
+
+.sect-caption {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.pad-top {
+    padding-top: 50px;
 }
 
 /*Business*/
