@@ -629,6 +629,8 @@ footer a {
     padding-top: 50px;
 }
 
-/*Debug*/
-
-
+/*Effects*/
+a:hover {
+    color:#0061FF;
+    transition: 0.5s;
+}
