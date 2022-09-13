@@ -313,6 +313,10 @@ a:hover {
     transition: 0.5s;
 }
 
+.active {
+    color: #0061FF;
+}
+
 button:hover {
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.633);
     cursor: pointer;
