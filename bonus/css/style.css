@@ -17,6 +17,13 @@
     flex-wrap: wrap;
 }
 
+.row-column {
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
 .row-space-between {
     margin:auto;
     display: flex;
@@ -178,7 +185,27 @@ body {
 
 /*Main*/
 
+/*Why Dropbox*/
+.main-container {
+    padding-top: 60px;
+}
 
+.img {
+    max-width: 100%;
+}
+
+.img-col {
+    width: 2000px;
+    
+}
+
+.brown {
+    background-color: #1a0d0d;
+}
+
+.mrg-top {
+    margin-bottom: 4px;
+}
 
 /*Business*/
 .dropbox-business-cta {
@@ -190,7 +217,8 @@ body {
     margin: auto;
     padding-top: 80px;
     padding-bottom: 80px;
-    vertical-align: top;
+    margin-top: -17px;
+
 }
 
 .business-cta {
