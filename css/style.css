@@ -106,6 +106,10 @@ body {
     width: 100%;
 }
 
+.dropdown {
+    display: none;
+}
+
 .logo {
     vertical-align: middle;
 }
@@ -636,7 +640,7 @@ a:hover {
 }
 
 button:hover {
-    box-shadow: 0 0 5px 0 black;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.188);
     cursor: pointer;
     transition: 0.5s;
 
@@ -644,7 +648,7 @@ button:hover {
 
 .fade-in {
     animation: fadeIn ease 0.9s;
-    
+
   }
   @keyframes fadeIn {
     0% {
@@ -654,3 +658,12 @@ button:hover {
       opacity:1;
     }
   }
+
+a > i {
+    color:black;
+}
+
+a > i:hover {
+    color:#0061FF;
+    animation: fadeIn asse 0.9s;
+}

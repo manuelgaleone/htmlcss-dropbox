@@ -19,19 +19,34 @@
                 <div class="row">
                     <div class="col-6 vert-align">
                         <img class="logo" src="./img/logo-small.png" alt="Dropbox logo">
-                        <div class="main-menu inline vert-align">
-                            <a class="menu-items" href="#">Perchè Dropbox</a>
-                            <a class="menu-items" href="#">Funzioni</a>
-                            <a class="menu-items" href="#">Piani e Prezzi</a>
-                        </div>
+                        <ul class="main-menu inline vert-align">
+                            <li class="inline">
+                                <a class="menu-items inline" href="#">Perchè Dropbox</a>
+                            </li>
+                            <li class="inline">
+                                <a class="menu-items inline" href="#">Funzioni</a>
+                            </li>
+                            <li class="inline">
+                                <a class="menu-items inline" href="#">Piani e Prezzi</a>
+                            </li> 
+                        </ul>
                     </div>
                     <div class="col-6 vert-align">
                         <div class="row align-right">
                             <div class="col-10">
-                                <div class="main-menu inline align-right">
-                                    <a class="menu-items" href="#">Supporto</a>
-                                    <a class="menu-items" href="#">Contatta l'ufficio vendite</a>
-                                </div>
+                                <ul class="main-menu menu-bar inline align-right">
+                                    <li class="inline">
+                                        <a class="menu-items" href="#">Supporto</a>
+                                        <div class="dropdown">
+                                            <a href="#">Servizio Clienti</a>
+                                            <a href="#">Live Chat</a>
+                                        </div>
+                                    </li>
+                                    <li class="inline">
+                                        <a class="menu-items" href="#">Contatta l'ufficio vendite</a>
+                                    </li>
+                                    
+                                </ul>
                             </div>
                             <div class="col-2 vert-align">
                                 <a class="menu-items" href="#">Accedi</a>
@@ -57,11 +72,11 @@
                             <p class="txt-left">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique minus accusamus esse sint amet aspernatur recusandae numquam! Quos atque dolorem, odio consequatur repellat nemo autem, consequuntur quod magnam suscipit error reprehenderit.
                             </p>
-                            <button class="medium-blue-button mrg-top">Inizia la tua prova gratuita</button>
+                            <button class="medium-blue-button mrg-top" href="#plans_container">Inizia la tua prova gratuita</button>
                             <p class="mrg-top">
                                 Annulla in qualsiasi momento
                             </p>
-                            <i class="fa-solid fa-arrow-down icon "></i>
+                            <a href="#plans_container"><i class="fa-solid fa-arrow-down icon arrow"></i></a>
                         </div>
                         <div class="col=8">
                             <img id="cover-img" src="./img/jumbo.png" alt="Dropbox screen">
@@ -69,7 +84,7 @@
                     </div>
                 </div> 
             </div>
-            <div class="plans-container fade-in">
+            <div id="plans_container" class="plans-container fade-in plans_container">
                 <div class="plans-contents">
                     <h1 class="business-title">
                         Trova il piano business che fa per te
