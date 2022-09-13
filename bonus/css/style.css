@@ -175,8 +175,8 @@ body {
     display: inline-block;
 }
 
-.pad-5 {
-    padding: 5px;
+.pad-25 {
+    padding: 40px;
 }
 
 .marg-left {
@@ -187,16 +187,45 @@ body {
 
 /*Why Dropbox*/
 .main-container {
-    padding-top: 60px;
+    padding-top: 70px;
 }
 
-.img {
-    max-width: 100%;
+.subtitle {
+    color: white;
+    font-weight: 600;
+}
+
+.title {
+    color: white;
+    padding-top: 30px;
+    font-weight: 400;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+.caption {
+    color: white;
+    padding-bottom: 30px;
+}
+
+.arrow-icon-button {
+    padding-left: 10px;
+}
+
+.blue-button-big {
+    background-color: #0061FF;
+    color: black;
+    padding: 25px;
+    border: none;
+    width: 150px;
+    text-align: left;
+    font-size: 15px;
 }
 
 .img-col {
-    width: 2000px;
-    
+    width: 2600px;
+    max-width: 100%;
+    margin-bottom: -5px;
 }
 
 .brown {
@@ -217,7 +246,6 @@ body {
     margin: auto;
     padding-top: 80px;
     padding-bottom: 80px;
-    margin-top: -17px;
 
 }
 
@@ -372,4 +400,9 @@ a > i {
 a > i:hover {
     color:#0061FF;
     animation: fadeIn asse 0.9s;
+}
+
+.blue-button-big:hover {
+    background-color: white;
+    color: #23b0e8;
 }
