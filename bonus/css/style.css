@@ -169,10 +169,15 @@ body {
 .small-blue-button {
     background-color: #0061FF;
     color: white;
-    padding: 5px;
-    width: 65px;
+    padding: 7px;
+    width: 80px;
     border: none;
-    
+    font-size: 13px;
+
+}
+
+.mrg-bottom {
+    margin-bottom: 30px;
 }
 
 .inline {
@@ -292,17 +297,18 @@ body {
     color: #812727;
     font-size: 40px;
     font-weight: 600;
-    vertical-align: top;
+    margin-top: -15px;
     
 }
 
-#cta-business-trial {
+.cta-business-trial {
     background-color: white;
-    border: none;
     padding: 10px;
     width: 200px;
-    vertical-align: top;
-    margin-top: 10px;
+    font-size: 15px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
 }
 
 /*Clients*/
