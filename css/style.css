@@ -707,3 +707,21 @@ a > i:hover {
     color:#0061FF;
     animation: fadeIn asse 0.9s;
 }
+
+.big-blue-button:hover {
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.633);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#partner-button:hover {
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.633);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.cta-business-trial:hover {
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.633);
+    cursor: pointer;
+    transition: 0.5s;
+}
