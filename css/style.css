@@ -416,7 +416,7 @@ ul {
 .dropbox-business-container {
     margin:auto;
     width: 50%;
-    height: 1200px;
+    padding: 75px;
     padding-top: 75px;
 }
 
