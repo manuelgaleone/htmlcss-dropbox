@@ -305,6 +305,103 @@ body {
     margin-top: 10px;
 }
 
+/*Clients*/
+.clients-section {
+    width: 50%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pad-50 {
+    padding: 50px;
+}
+
+.client-divisor {
+    margin-top: 35px;
+    width: 100px;
+    border: 1px solid black;
+    margin-bottom: 35px;
+}
+
+.client-caption {
+    padding-bottom: 25px;
+}
+
+.clients-title {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.design-it-block {
+    background-color: #A2D39B;
+    border: 15px solid #d7f1d4;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.asu-block {
+    background-color: #812727;
+
+}
+
+.world-block {
+    background-color: #ec2424;
+
+}
+
+.hearst-block {
+    background-color: #7fbbdb;
+
+}
+
+.lonely-block {
+    background-color: #0D2481;
+
+}
+
+.clear-block {
+    background-color: #ecd31b;
+
+}
+
+.florida-block {
+    background-color: #23b0e8;
+
+}
+
+.center-logos {
+    padding-left: 95px;
+    padding-top: 140px;
+}
+
+.topss-block {
+    background-color: #e82323;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.client-logo {
+    color: white;
+    width: 115px;
+    filter: invert();
+    
+}
+
+.client {
+    height: 300px;
+}
+
+.clients-history {
+    background-color: #F5F5F5;
+
+}
+
 /*Questions*/
 .questions-container {
     width: 50%;
